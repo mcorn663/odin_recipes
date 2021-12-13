@@ -1,0 +1,85 @@
+
+* {
+    font-family: 'Bakbak One', cursive;
+    font-family: 'Roboto', sans-serif;
+    color: #292f36;
+    background: #ffffff;
+    font-size: large;
+}
+
+
+
+h1 {
+font-family: 'Bakbak One', cursive;
+text-align: center;
+font-size: xxx-large;
+border-color: #292f36;
+border-bottom: 10px;
+text-shadow: 1px 1px 1px #ffbf69;
+             2px 2px 2px #ffbf69;
+}
+
+ #homeContainer {
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     align-content: center;
+     justify-content: center;
+     column-gap: 10rem;
+     border-radius: 10%;
+     padding-left: 5rem;
+     padding-right: 5rem;
+     padding-bottom: 5rem;
+     }
+         
+
+
+ 
+
+ #homeContainer p {
+    inline-size: 60rem;
+    overflow-wrap: break-word;
+    text-align: center;
+    flex-wrap: wrap;
+    border-radius: 1%;
+    padding-bottom: 3rem;
+ }
+
+ .cards {
+     background-color: #cbf3f0;
+     display: flex;
+     align-items: center;
+     align-content: center;
+     padding: 2rem;
+     column-gap: 5em;
+     row-gap: 10em;
+     justify-content: center;
+     flex-wrap: wrap;
+     border-radius: 1%;
+
+
+ }
+
+ #card1 {
+     flex-basis: auto;
+     align-self: center;
+     flex-wrap: wrap;
+     text-align: center;
+     border-radius: 1%;
+
+ }
+ #card2 {
+     flex-basis: auto;
+     align-self: center;
+     flex-wrap: wrap;
+     text-align: center;
+     border-radius: 1%;
+ }
+ #card3 {
+     flex-basis: auto;
+     align-self: center;
+     flex-wrap: wrap;
+     text-align: center;
+     border-radius: 1%;
+ }
+ 

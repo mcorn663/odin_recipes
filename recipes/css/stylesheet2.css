@@ -1,0 +1,75 @@
+
+* {
+    font-family: 'Bakbak One', cursive;
+    font-family: 'Roboto', sans-serif;
+    color: #292f36;
+    background: #ffffff;
+    font-size: large;
+}
+
+
+
+h1 {
+font-family: 'Bakbak One', cursive;
+text-align: center;
+font-size: xxx-large;
+border-color: #292f36;
+border-bottom: 10px;
+text-shadow: 1px 1px 1px #ffbf69;
+             
+}
+h2 {
+
+    text-shadow: 1px 1px 1px #ffbf69;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 5em;
+    padding-right: 5em;
+
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 5em;
+    padding-top: 2em;
+}
+
+.descrip {
+    padding: 10em;
+    order: 1;
+    flex-basis: auto;
+    align-self: auto;
+
+}
+
+.ingred {
+    order: 3;
+    flex-basis: auto;
+    align-self: auto;
+
+
+}
+
+.imgs {
+    order: 2; 
+    flex-basis: auto;
+    align-self: flex-start;
+    border-radius: 10%;
+
+}
+
+.directions {
+    order: 4;
+    flex-basis: auto;
+    align-self: flex-end;
+
+}
