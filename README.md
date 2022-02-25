@@ -1,5 +1,7 @@
-# odin_recipes
+#odin_recipes
+
 Odin Recipes
+
 This is a project that I did as an assignment from The Oden Project. 
 For this project, I used html and css to complete the assignment objectives. 
 
